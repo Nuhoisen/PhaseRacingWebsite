@@ -4,7 +4,6 @@ import './css/modern-business.css';
 import './css/carousel.css';
 import './font-awesome/css/font-awesome.min.css';
 import Header from './jsx/header.js';
-import Carousel from './jsx/frontPage/components/carousel.js';
 
 class App extends Component {
   render() {

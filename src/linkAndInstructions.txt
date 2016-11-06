@@ -1,0 +1,10 @@
+https://github.com/Nuhoisen/PhaseRacingWebsite
+
+1. Download Git Bash if you haven't
+
+2. Download NPM (Node Package Manager)
+
+3. Open Git Bash and enter Website top directory 
+
+4. run command "npm start". (may not work for several weeks, atleast until i release a product release)
+
