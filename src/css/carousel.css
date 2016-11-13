@@ -2,7 +2,7 @@
 	Carousel CSS
 */
 .pornDiv{
-  height: 400px;
+  height: 200px;
   width: 500px;
   background-size: contain;
   background-image:url('http://newscult.com/wp-content/uploads/2016/03/pornhub-logo.jpg'); 
@@ -15,8 +15,8 @@
   color: rgb(77, 77, 77);
   font-weight: bold;
   font-family: Arial Black;
-	height: 400px;
-	width: 100%;
+  height: 400px;
+  width: 100%;
 	background-size: contain;
 	background-image:url('http://grided.epri.com/Images/GridEd_930x300.jpg');
   background-repeat: no-repeat;
@@ -38,6 +38,23 @@
     background-color: black;
   	background-size: contain;
   	background-image:url('http://insideevs.com/wp-content/uploads/2015/12/216.jpg');
+}
+
+
+.germanNews{
+      text-align: center;
+    color:rgb(77, 77, 77);
+    text-shadow: -2px -2px 2px rgba(150, 150, 150, 1);
+    font-size: 40px;
+    font-family: Arial Black;
+
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: contain;
+    background-image:url('https://electrek.files.wordpress.com/2015/09/tesla-wall-charger-e1442438329238.jpg?quality=82&w=2000&h=0#038;strip=all&w=1000&h=500');
 }
 
 .carCaption{

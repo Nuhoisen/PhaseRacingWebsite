@@ -38,7 +38,7 @@ class Header extends Component{
 
 	  reRenderStates(){
 	    switch(this.state.selected){
-	      case 0: return <FrontPage/>
+	      case 0: return <FrontPage />
 	      case 1: return <AboutPage/>
 	      case 2: return <TeamPage/>
 	      case 3: return <ContactPage/>

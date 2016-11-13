@@ -10,10 +10,10 @@ var SimpleSlider = React.createClass({
 
       accessibility:true,
       autoplay: true,
-      autoplaySpeed: 10000,
+      autoplaySpeed: 60000,
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 2500,
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows:true
@@ -28,8 +28,13 @@ var SimpleSlider = React.createClass({
         <div className="carDiv">
              See Whats In Store This Year
         </div>
-        <div><h3>3</h3></div>
-      </Slider>
+        <a href="https://electrek.co/2016/06/14/all-new-cars-mandated-electric-germany-2030/">   
+          <div className="germanNews">
+               Germany Mandates Electric Cars!
+          </div>
+        </a>
+
+    </Slider>
     );
   }
 });

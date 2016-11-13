@@ -3,7 +3,7 @@ import Footer from '../Footer/footer.js';
 class AboutPage extends Component{
     render(){
     	return(
-    		 <div className="container">
+    		 <div className="container" id = "aboutPage">
 				<div className="row">
 		            <div className="col-lg-12">
 		                <h1 className="page-header">Who We Are
@@ -14,7 +14,7 @@ class AboutPage extends Component{
 		        
 		        <div className="row">
 		            <div className="col-md-6">
-		                <img className="img-responsive" src="http://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2014/04/07/101560465-03913803_107.530x298.JPG?v=1396876798" alt=""></img>
+		                <img className="img-responsive" src="./aboutImages/qualcommCar.jpg" alt=""></img>
 		            </div>
 		            <div className="col-md-6">
 		                <h2>OIT Electric FSAE! </h2>

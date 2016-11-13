@@ -14,11 +14,11 @@ class FrontContatiner extends Component{
                     <div className="col-md-4">
                         <div className="panel panel-default">
                             <div className="panel-heading">
-                                <h4><i className="fa fa-fw fa-check"></i> Meet The Team!</h4>
+                                <h4><i className="fa fa-fw fa-check"></i> Want to join!</h4>
                             </div>
                             <div className="panel-body">
-                                <p>Take a look a some of the best engineers in the business</p>
-                                <a href="#" className="btn btn-default">Learn More</a>
+                                <p>Potential Team Member Info Here</p>
+                                <a href="#aboutPage" className="btn btn-default">Learn More</a>
                             </div>
                         </div>
                     </div>

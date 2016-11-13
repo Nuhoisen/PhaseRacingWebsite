@@ -20,7 +20,7 @@ class TeamPage extends Component {
 				    
 				    <div className="row">
 				        <div className="col-lg-12">
-				            <img className="img-responsive" src="http://www.oitracing.com/wp-content/uploads/2014/10/DSC_01301.jpg" alt=""></img>
+				            <img className="img-responsive" src="./teamImages/teamPhoto.jpg" alt=""></img>
 				        </div>
 				    </div>
 				   
@@ -84,7 +84,7 @@ class TeamPage extends Component {
 				                <img className="img-responsive" src="./teamImages/santiagoE.jpg" alt=""></img>
 				                <div className="caption">
 				                    <h3>Santiago Lugo<br/>
-				                    <small>Job Title: Sleeper Agent<br/></small>
+				                    <small>Job Title: Fiber Optics Lead/ Torque Vectoring<br/></small>
 				                    <small>Major: Computer Engineering<br/></small>
 				                   
 				                    </h3>
@@ -103,7 +103,7 @@ class TeamPage extends Component {
 				                <img className="img-responsive" src="./teamImages/chrisS.jpg" alt=""></img>
 				                <div className="caption">
 				                    <h3>Chris Souza<br/>
-				                    <small>Job Title: Torque Vectoring Engineer<br/></small>
+				                    <small>Job Title: Torque Vectoring Lead<br/></small>
 				                    <small>Major: Computer Engineering<br/></small>
 				                    </h3>
 				                    <ul className="list-inline">
@@ -121,7 +121,7 @@ class TeamPage extends Component {
 				                <img className="img-responsive" src="./teamImages/kellyH.jpg" alt=""></img>
 				                <div className="caption">
 				                    <h3>Kelly Honsinger<br/>
-				                    <small>Job Title: Media Coordinator/ Torque Vectoring<br/></small>
+				                    <small>Job Title: Website Architect/ Torque Vectoring<br/></small>
 				                    <small>Major: Computer Engineering<br/></small>
 				                    </h3>
 				                    <ul className="list-inline">
@@ -140,7 +140,7 @@ class TeamPage extends Component {
 				                <img className="img-responsive" src="./teamImages/shaunR.jpg" alt=""></img>
 				                <div className="caption">
 				                    <h3>Shaun Rasmussen<br/>
-				                    <small>Job Title: Lap Timer Simulator<br/></small>
+				                    <small>Job Title: Lap Timer Architect<br/></small>
 				                    <small>Major: Software Engineering<br/></small>
 				                    </h3>
 				                    <ul className="list-inline">

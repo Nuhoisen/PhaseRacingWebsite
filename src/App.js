@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './css/bootstrap.css';
 import './css/modern-business.css';
 import './css/carousel.css';
+import './css/slick/slick-theme.min.css';
+import './css/slick/slick.css';
 import './font-awesome/css/font-awesome.min.css';
 import Header from './jsx/header.js';
 
