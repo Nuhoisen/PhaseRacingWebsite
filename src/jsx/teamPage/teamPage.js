@@ -1,23 +1,15 @@
 import React, { Component } from 'react';
 import Footer from '../Footer/footer.js';
+import SubHeader from '../subHeaderRef/subHeaderDiv.js';
 
 class TeamPage extends Component {
 	
 	render(){
 		return(
 		 		<div className="container">
-				    <div className="row">
-				        <div className="col-lg-12">
-				            <h1 className="page-header">
-				            	Our Team
-			            	</h1>
-				            <ol className="breadcrumb">
-				                <li><a href="index.html">Home</a></li>
-				                <li className="active">Team</li>
-				            </ol>
-				        </div>
-				    </div>
 				    
+		 			<SubHeader currentPage = "Our Team" onClick = {this.props.pageFunctions[0]} />
+				
 				    <div className="row">
 				        <div className="col-lg-12">
 				            <img className="img-responsive" src="./teamImages/teamPhoto.jpg" alt=""></img>

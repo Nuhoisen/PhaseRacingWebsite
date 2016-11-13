@@ -18,6 +18,14 @@ class Header extends Component{
 
 
 	    this.reRenderStates = this.reRenderStates.bind(this);
+	    this.arrayOfFunctions = [
+	    this.selectHome,
+	    this.selectAbout,
+	    this.selectTeamProf,
+	    this.selectContact
+	    ];
+
+
 	  }
 
 	  selectHome(){
@@ -38,10 +46,11 @@ class Header extends Component{
 
 	  reRenderStates(){
 	    switch(this.state.selected){
-	      case 0: return <FrontPage />
-	      case 1: return <AboutPage/>
-	      case 2: return <TeamPage/>
-	      case 3: return <ContactPage/>
+	      case 0: return <FrontPage pageFunctions={this.arrayOfFunctions}/>
+	      case 1: return <AboutPage pageFunctions={this.arrayOfFunctions}/>
+	      case 2: return <TeamPage pageFunctions={this.arrayOfFunctions}/>
+	      case 3: return <ContactPage pageFunctions={this.arrayOfFunctions}/>
+	      default:  return <FrontPage pageFunctions={this.arrayOfFunctions}/>
 	    }
 	  }
 

@@ -8,8 +8,7 @@ class FrontPage extends Component{
 		return(
 			<div>
 				<SimpleSlider/>
-				<FrontContainer/>
-				
+				<FrontContainer onClick={this.props.pageFunctions[1]}/>
 			</div>
 			);
 	}

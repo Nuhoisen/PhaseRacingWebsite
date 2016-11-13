@@ -1,24 +1,14 @@
 import React, { Component } from 'react';
 import Footer from '../Footer/footer.js';
-
+import SubHeader from '../subHeaderRef/subHeaderDiv.js';
 
 class ContactPage extends Component {
 	
 	render(){
 		return(
 			<div className="container">
-		        <div className="row">
-		            <div className="col-lg-12">
-		                <h1 className="page-header">Contact
-		                </h1>
-		                <ol className="breadcrumb">
-		                    <li><a href="index.html">Home</a>
-		                    </li>
-		                    <li className="active">Contact</li>
-		                </ol>
-		            </div>
-		        </div>
 		        
+		        <SubHeader currentPage ="Contact" onClick={this.props.pageFunctions[0]} />
 		        <div className="row">
 		            <div className="col-md-8">
 		                <iframe width="100%" height="400px" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>

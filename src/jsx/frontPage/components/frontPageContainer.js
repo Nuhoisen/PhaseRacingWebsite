@@ -1,7 +1,16 @@
 import React, {Component} from 'react';
 import Footer from '../../Footer/footer.js';
-
 class FrontContatiner extends Component{
+    
+    constructor(props){
+        super(props);
+        this.updateAbout = this.updateAbout.bind(this);
+    }
+
+    updateAbout(){
+
+    }
+
     render(){
         return(
             <div className="container">
@@ -18,7 +27,7 @@ class FrontContatiner extends Component{
                             </div>
                             <div className="panel-body">
                                 <p>Potential Team Member Info Here</p>
-                                <a href="#aboutPage" className="btn btn-default">Learn More</a>
+                                <a href="#" onClick = {this.props.onClick} className="btn btn-default">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +90,7 @@ class FrontContatiner extends Component{
                     </div>
                 </div>
 
-                <div className="row">
+                {/*<div className="row">
                     <div className="col-lg-12">
                         <h2 className="page-header">Modern Business Features</h2>
                     </div>
@@ -114,7 +123,7 @@ class FrontContatiner extends Component{
                             <a className="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
                         </div>
                     </div>
-                </div>
+                </div>*/}
 
                 <hr></hr>
                 <Footer/>
