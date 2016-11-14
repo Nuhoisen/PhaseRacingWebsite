@@ -4,25 +4,26 @@ import FrontPage from './frontPage/frontPage.js';
 import AboutPage from './about/aboutPage.js';
 import TeamPage from './teamPage/teamPage.js';
 import ContactPage from './contactPage/contactPage.js';
-
+import PicturePage from './photoPage/picturePage.js';
 class Header extends Component{
 	
 
 	 constructor(){
 	    super();
-	    this.state = {selected: 0};
+	    this.state={selected: 0};
 	    this.selectHome=this.selectHome.bind(this);
 	    this.selectAbout=this.selectAbout.bind(this);
 	    this.selectTeamProf=this.selectTeamProf.bind(this);
-	    this.selectContact = this.selectContact.bind(this);
+	    this.selectContact=this.selectContact.bind(this);
+	    this.selectPicture=this.selectPicture.bind(this);
 
-
-	    this.reRenderStates = this.reRenderStates.bind(this);
-	    this.arrayOfFunctions = [
+	    this.reRenderStates=this.reRenderStates.bind(this);
+	    this.arrayOfFunctions=[
 	    this.selectHome,
 	    this.selectAbout,
 	    this.selectTeamProf,
-	    this.selectContact
+	    this.selectContact,
+	    this.selectPicture
 	    ];
 
 
@@ -44,12 +45,17 @@ class Header extends Component{
 	  	this.setState({selected: 3});
 	  }
 
+	  selectPicture(){
+	  	this.setState({selected: 4});
+	  }
+
 	  reRenderStates(){
 	    switch(this.state.selected){
 	      case 0: return <FrontPage pageFunctions={this.arrayOfFunctions}/>
 	      case 1: return <AboutPage pageFunctions={this.arrayOfFunctions}/>
 	      case 2: return <TeamPage pageFunctions={this.arrayOfFunctions}/>
 	      case 3: return <ContactPage pageFunctions={this.arrayOfFunctions}/>
+	      case 4: return <PicturePage pageFunctions={this.arrayOfFunctions}/>
 	      default:  return <FrontPage pageFunctions={this.arrayOfFunctions}/>
 	    }
 	  }
@@ -84,9 +90,9 @@ class Header extends Component{
 			                    <li onClick={this.selectContact}>
 			                        <a href="#">Contact</a>
 			                    </li>
-			                    <li className="dropdown">
-			                        <a href="#" className="dropdown-toggle" data-toggle="dropdown">Pictures <b className="caret"></b></a>
-			                        <ul className="dropdown-menu">
+			                    <li onClick={this.selectPicture}>	{/*className="dropdown"*/}
+			                        <a href="#" >Projects</a> {/*className="dropdown-toggle" data-toggle="dropdown"  <b className="caret"></b> */}
+			                        {/*<ul className="dropdown-menu">
 			                            <li>
 			                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
 			                            </li>
@@ -102,7 +108,7 @@ class Header extends Component{
 			                            <li>
 			                                <a href="portfolio-item.html">Single Portfolio Item</a>
 			                            </li>
-			                        </ul>
+			                        </ul>*/}
 			                    </li>
 			                    <li className="dropdown">
 			                        <a href="#" className="dropdown-toggle" data-toggle="dropdown">Blog <b className="caret"></b></a>

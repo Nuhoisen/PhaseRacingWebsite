@@ -7,8 +7,8 @@ class FrontPage extends Component{
 	render(){
 		return(
 			<div>
-				<SimpleSlider/>
-				<FrontContainer onClick={this.props.pageFunctions[1]}/>
+				<SimpleSlider pageFunctions={this.props.pageFunctions}/>
+				<FrontContainer pageFunctions={this.props.pageFunctions}/>
 			</div>
 			);
 	}

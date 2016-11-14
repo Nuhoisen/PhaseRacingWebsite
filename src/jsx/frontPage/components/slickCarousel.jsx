@@ -25,7 +25,7 @@ var SimpleSlider = React.createClass({
             Our Sponsors
           </div>
         
-        <div className="carDiv">
+        <div className="carDiv" onClick={this.props.pageFunctions[4]}>
              See Whats In Store This Year
         </div>
         <a href="https://electrek.co/2016/06/14/all-new-cars-mandated-electric-germany-2030/">   

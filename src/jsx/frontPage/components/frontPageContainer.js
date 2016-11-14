@@ -27,7 +27,7 @@ class FrontContatiner extends Component{
                             </div>
                             <div className="panel-body">
                                 <p>Potential Team Member Info Here</p>
-                                <a href="#" onClick = {this.props.onClick} className="btn btn-default">Learn More</a>
+                                <a href="#" onClick = {this.props.pageFunctions[1]} className="btn btn-default">Learn More</a>
                             </div>
                         </div>
                     </div>

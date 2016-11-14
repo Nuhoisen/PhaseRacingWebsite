@@ -8,7 +8,7 @@ class TeamPage extends Component {
 		return(
 		 		<div className="container">
 				    
-		 			<SubHeader currentPage = "Our Team" onClick = {this.props.pageFunctions[0]} />
+		 			<SubHeader currentPage="Our Team" onClick={this.props.pageFunctions[0]} />
 				
 				    <div className="row">
 				        <div className="col-lg-12">
