@@ -21,13 +21,16 @@ var SimpleSlider = React.createClass({
 
     return (
       <Slider {...settings}>
-          <div  className="esriDiv">
+        <a href="#sponsorHeader">
+          <div className="esriDiv">
             Our Sponsors
           </div>
-        
-        <div className="carDiv" onClick={this.props.pageFunctions[4]}>
-             See Whats In Store This Year
-        </div>
+        </a>
+        <a href="#">
+          <div className="carDiv" onClick={this.props.pageFunctions[4]}>
+               See Whats In Store This Year
+          </div>
+        </a>
         <a href="https://electrek.co/2016/06/14/all-new-cars-mandated-electric-germany-2030/">   
           <div className="germanNews">
                Germany Mandates Electric Cars!

@@ -13,6 +13,7 @@ class FrontContatiner extends Component{
 
     render(){
         return(
+            
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -54,7 +55,7 @@ class FrontContatiner extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" id="sponsorHeader">
                     <div className="col-lg-12">
                         <h2 className="page-header">Thanks To Our Sponsors</h2>
                     </div>
