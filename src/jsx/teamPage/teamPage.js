@@ -22,7 +22,7 @@ class TeamPage extends Component {
 				        </div>
 				        <div className="col-md-4 text-center">
 				            <div className="thumbnail">
-				                <img className="img-responsive" src="http://risescholarshipfoundation.org/wp-content/uploads/2013/07/Dustin-Henderson-Large-2-290x217.jpg" alt=""></img>
+				                <img className="img-responsive" src="./teamImages/dustinH.jpg" alt=""></img>
 				                <div className="caption">
 				                    <h3>Dustin Henderson<br/>
 				                    <small>Job Title: Team Director<br/></small>

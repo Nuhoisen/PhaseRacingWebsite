@@ -71,7 +71,7 @@ class FrontContatiner extends Component{
                     </div>
                     <div className="col-md-4 col-sm-6">
                         <a href="portfolio-item.html">
-                            <img className="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""></img>
+                            <img className="img-responsive img-portfolio img-hover" src="https://mran.revolutionanalytics.com/assets/img/MSFT_logo_rgb_C-Gray.3b156229.png" alt=""></img>
                         </a>
                     </div>
                     <div className="col-md-4 col-sm-6">
