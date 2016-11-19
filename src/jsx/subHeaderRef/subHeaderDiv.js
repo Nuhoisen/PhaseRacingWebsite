@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer from '../Footer/footer.js';
 
 
 class SubHeaderRef extends Component {
