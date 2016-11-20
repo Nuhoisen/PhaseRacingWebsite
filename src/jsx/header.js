@@ -5,6 +5,10 @@ import AboutPage from './about/aboutPage.js';
 import TeamPage from './teamPage/teamPage.js';
 import ContactPage from './contactPage/contactPage.js';
 import PicturePage from './photoPage/picturePage.js';
+import ContributorPage from './contributors/contributors.js';
+import SponsorshipPage from './sponsorshipPage/sponsorshipPage.js';
+
+
 class Header extends Component{
 	
 
@@ -16,14 +20,16 @@ class Header extends Component{
 	    this.selectTeamProf=this.selectTeamProf.bind(this);
 	    this.selectContact=this.selectContact.bind(this);
 	    this.selectPicture=this.selectPicture.bind(this);
-
+	    this.selectContributors=this.selectContributors.bind(this);
+	    this.selectSponsors=this.selectSponsors.bind(this);
 	    this.reRenderStates=this.reRenderStates.bind(this);
 	    this.arrayOfFunctions=[
 	    this.selectHome,
 	    this.selectAbout,
 	    this.selectTeamProf,
 	    this.selectContact,
-	    this.selectPicture
+	    this.selectPicture,
+	    this.selectContributors
 	    ];
 
 
@@ -49,6 +55,14 @@ class Header extends Component{
 	  	this.setState({selected: 4});
 	  }
 
+	  selectContributors(){
+	  	this.setState({selected: 5});
+	  }
+
+	  selectSponsors(){
+	  	this.setState({selected: 6});
+	  }
+
 	  reRenderStates(){
 	    switch(this.state.selected){
 	      case 0: return <FrontPage pageFunctions={this.arrayOfFunctions}/>
@@ -56,6 +70,8 @@ class Header extends Component{
 	      case 2: return <TeamPage pageFunctions={this.arrayOfFunctions}/>
 	      case 3: return <ContactPage pageFunctions={this.arrayOfFunctions}/>
 	      case 4: return <PicturePage pageFunctions={this.arrayOfFunctions}/>
+	      case 5: return <ContributorPage pageFunctions={this.arrayOfFunctions}/>
+	      case 6: return <SponsorshipPage />
 	      default:  return <FrontPage pageFunctions={this.arrayOfFunctions}/>
 	    }
 	  }
@@ -110,7 +126,7 @@ class Header extends Component{
 			                            </li>
 			                        </ul>*/}
 			                    </li>
-			                    <li className="dropdown">
+			                    {/*<li className="dropdown">
 			                        <a href="#" className="dropdown-toggle" data-toggle="dropdown">Blog <b className="caret"></b></a>
 			                        <ul className="dropdown-menu">
 			                            <li>
@@ -123,45 +139,15 @@ class Header extends Component{
 			                                <a href="blog-post.html">Blog Post</a>
 			                            </li>
 			                        </ul>
-			                    </li>
+			                    </li>*/}
 			                    <li className="dropdown">
-			                        <a href="#" className="dropdown-toggle" data-toggle="dropdown">Archives <b className="caret"></b></a>
-			                        <ul className="dropdown-menu">
-			                            <li>
-			                                <a href="full-width.html">January</a>
+			                        <a href="#" className="dropdown-toggle" data-toggle="dropdown" >Our Contributors <b className="caret"></b></a>
+			                         <ul className="dropdown-menu">
+			                            <li onClick={this.selectSponsors}>
+			                                <a href="#">Our Sponsors</a>
 			                            </li>
-			                            <li>
-			                                <a href="full-width.html">February</a>
-			                            </li>
-			                            <li>
-			                                <a href="full-width.html">March</a>
-			                            </li>
-			                            <li>
-			                                <a href="full-width.html">April</a>
-			                            </li>
-			                            <li>
-			                                <a href="full-width.html">May</a>
-			                            </li>
-			                            <li>
-			                                <a href="full-width.html">June</a>
-			                            </li>
-			                            <li>
-			                                <a href="full-width.html">July</a>
-			                            </li>
-			                            <li>
-			                                <a href="full-width.html">August</a>
-			                            </li>
-			                            <li>
-			                                <a href="full-width.html">September</a>
-			                            </li>
-			                            <li>
-			                                <a href="full-width.html">October</a>
-			                            </li>
-			                            <li>
-			                                <a href="full-width.html">November</a>
-			                            </li>
-			                            <li>
-			                                <a href="full-width.html">December</a>
+			                            <li onClick={this.selectContributors}>
+			                                <a href="#">Special Thanks</a>
 			                            </li>
 			                        </ul>
 			                    </li>

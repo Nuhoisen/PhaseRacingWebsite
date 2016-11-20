@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Footer from '../../Footer/footer.js';
+import SponsorDiv from './sponsorDiv.js';
+
 class FrontContatiner extends Component{
     
     constructor(props){
@@ -24,10 +26,10 @@ class FrontContatiner extends Component{
                     <div className="col-md-4">
                         <div className="panel panel-default">
                             <div className="panel-heading">
-                                <h4><i className="fa fa-fw fa-check"></i> Want to join!</h4>
+                                <h4>Want to join!<i className="fa fa-fw fa-check"></i> </h4>
                             </div>
                             <div className="panel-body">
-                                <p>Potential Team Member Info Here</p>
+                                <p>Potential Team Member Info Here.</p>
                                 <a href="#" onClick={this.props.pageFunctions[1]} className="btn btn-default">Learn More</a>
                             </div>
                         </div>
@@ -35,7 +37,7 @@ class FrontContatiner extends Component{
                     <div className="col-md-4">
                         <div className="panel panel-default">
                             <div className="panel-heading">
-                                <h4><i className="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                                <h4>Our Projects<i className="fa fa-fw fa-gift"></i> </h4>
                             </div>
                             <div className="panel-body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
@@ -55,41 +57,8 @@ class FrontContatiner extends Component{
                         </div>
                     </div>
                 </div>
-                <div className="row" id="sponsorHeader">
-                    <div className="col-lg-12">
-                        <h2 className="page-header">Thanks To Our Sponsors</h2>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                        <a href="http://grided.epri.com/">
-                            <img className="img-responsive img-portfolio img-hover" src="http://grided.epri.com/Images/GridEd_930x300.jpg" alt=""></img>
-                        </a>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                        <a href="http://www.altium.com/">
-                            <img className="img-responsive img-portfolio img-hover" src="http://www.altium.com/resources/images/media-release/altium_logo.jpg" alt=""></img>
-                        </a>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                        <a href="portfolio-item.html">
-                            <img className="img-responsive img-portfolio img-hover" src="https://mran.revolutionanalytics.com/assets/img/MSFT_logo_rgb_C-Gray.3b156229.png" alt=""></img>
-                        </a>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                        <a href="portfolio-item.html">
-                            <img className="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""></img>
-                        </a>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                        <a href="portfolio-item.html">
-                            <img className="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""></img>
-                        </a>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                        <a href="portfolio-item.html">
-                            <img className="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""></img>
-                        </a>
-                    </div>
-                </div>
+                <SponsorDiv/>
+                
 
                 {/*<div className="row">
                     <div className="col-lg-12">
