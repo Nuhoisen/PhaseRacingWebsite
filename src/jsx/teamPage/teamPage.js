@@ -76,7 +76,7 @@ class TeamPage extends Component {
 				                <img className="img-responsive" src="./teamImages/santiagoE.jpg" alt=""></img>
 				                <div className="caption">
 				                    <h3>Santiago Lugo<br/>
-				                    <small>Job Title: Fiber Optics Lead/ Torque Vectoring<br/></small>
+				                    <small>Job Title: Fiber Optics Lead/Torque Vectoring<br/></small>
 				                    <small>Major: Computer Engineering<br/></small>
 				                   
 				                    </h3>
@@ -113,8 +113,8 @@ class TeamPage extends Component {
 				                <img className="img-responsive" src="./teamImages/kellyH.jpg" alt=""></img>
 				                <div className="caption">
 				                    <h3>Kelly Honsinger<br/>
-				                    <small>Job Title: Website Architect/ Torque Vectoring<br/></small>
-				                    <small>Major: Computer Engineering<br/></small>
+				                    <small>Job Title: Website Architect/Torque Vectoring<br/></small>
+				                    <small>Major: Computer Engineering/Embedded Systems<br/></small>
 				                    </h3>
 				                    <ul className="list-inline">
 				                        

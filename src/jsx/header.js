@@ -141,7 +141,7 @@ class Header extends Component{
 			                        </ul>
 			                    </li>*/}
 			                    <li className="dropdown">
-			                        <a href="#" className="dropdown-toggle" data-toggle="dropdown" >Our Contributors <b className="caret"></b></a>
+			                        <a href="#" className="dropdown-toggle" data-toggle="dropdown" >Our Contributors<b className="caret"></b></a>
 			                         <ul className="dropdown-menu">
 			                            <li onClick={this.selectSponsors}>
 			                                <a href="#">Our Sponsors</a>

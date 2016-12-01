@@ -9,11 +9,11 @@ class Contributors extends Component{
 				<SubHeader currentPage="Giving our thanks" onClick={this.props.pageFunctions[0]} />
 		        <div className="row">
 		            <div className="col-md-4 col-sm-6">
-	                    <img className="img-responsive img-hover" src="/teamImages/kevinP.jpg" alt=""></img>
+	                    <img className="img-responsive" src="/teamImages/kevinP.jpg" alt=""></img>
    		            </div>
 		            <div className="col-md-5">
 		                <h3>Special Thanks to Kevin Pingtong!</h3>
-		                <p>Our director, Kevin Pintong, is the basis for the existence of our program. We owe him our gratitude and applaud him for his hard work.  We&#39;re in good hands with him watching over us.</p>
+		                	<p>Our director, Kevin Pintong, is the basis for the existence of our program. We applaud him for his hard work and great contributions.</p>
 		            </div>
 		        </div>
 		        <hr></hr>
@@ -24,7 +24,12 @@ class Contributors extends Component{
 			                <p>Eve Klough, Assoiciate professor in the EE department, has been essential to our success. She has worked hard with our Space Vector Modulation team to help nail out the biggest difficulties.</p>
 		            </div>
 		        </div>
-
+		        <div className="row">
+		            <div className="col-md-5">
+		                <h3>Special Thanks to Cody Bulkley!</h3>
+		                	<p>Cody Bulkley, Oregon Tech Alumus, has been a key factor to our success.  </p>
+		            </div>
+		        </div>
 		        <hr></hr>
 		        <Footer/>
 		    </div>

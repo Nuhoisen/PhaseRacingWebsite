@@ -12,7 +12,7 @@ class PicturePage extends Component{
 	        <div className="row">
 	            <div className="col-md-7">
 	                <a href="portfolio-item.html">
-	                    <img className="img-responsive img-hover" src="/images/projectPhotos/svpwm.jpg" alt=""></img>
+	                    <img className="img-responsive" src="/images/projectPhotos/svpwm.jpg" alt=""></img>
 	                </a>
 	            </div>
 	            <div className="col-md-5">
@@ -28,7 +28,7 @@ class PicturePage extends Component{
 	        <div className="row">
 	            <div className="col-md-7">
 	                <a href="portfolio-item.html">
-	                    <img className="img-responsive img-hover" src="/images/projectPhotos/motorController.jpg" alt=""></img>
+	                    <img className="img-responsive" src="/images/projectPhotos/motorController.jpg" alt=""></img>
 	                </a>
 	            </div>
 	            <div className="col-md-5">
@@ -44,7 +44,7 @@ class PicturePage extends Component{
 	        <div className="row">
 	            <div className="col-md-7">
 	                <a href="portfolio-item.html">
-	                    <img className="img-responsive img-hover" src="/images/projectPhotos/torqueVectoring.jpg" alt=""></img>
+	                    <img className="img-responsive" src="/images/projectPhotos/torqueVectoring.jpg" alt=""></img>
 	                </a>
 	            </div>
 	            <div className="col-md-5">
@@ -61,7 +61,7 @@ class PicturePage extends Component{
 
 	            <div className="col-md-7">
 	                <a href="portfolio-item.html">
-	                    <img className="img-responsive img-hover" src="/images/projectPhotos/fiberOptics.jpg" alt=""></img>
+	                    <img className="img-responsive" src="/images/projectPhotos/fiberOptics.jpg" alt=""></img>
 	                </a>
 	            </div>
 	            <div className="col-md-5">

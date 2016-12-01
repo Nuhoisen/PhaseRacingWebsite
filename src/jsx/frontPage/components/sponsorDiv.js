@@ -24,17 +24,17 @@ class SponsorDiv extends Component{
                     </a>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
+                    <a href="#">
                         <img className="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""></img>
                     </a>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
+                    <a href="#">
                         <img className="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""></img>
                     </a>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
+                    <a href="#">
                         <img className="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt=""></img>
                     </a>
                 </div>
