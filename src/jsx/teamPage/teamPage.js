@@ -12,7 +12,7 @@ class TeamPage extends Component {
 				
 				    <div className="row">
 				        <div className="col-lg-12">
-				            <img className="img-responsive" src="./teamImages/teamPhoto.jpg" alt=""></img>
+				            <img className="img-responsive" src="./teamImages/teamPhoto.jpg" alt="" width="50%"></img>
 				        </div>
 				    </div>
 				   
