@@ -37,7 +37,7 @@ class FrontContatiner extends Component{
                     <div className="col-md-4">
                         <div className="panel panel-default">
                             <div className="panel-heading">
-                                <h4>Our Projects<i className="fa fa-fw fa-gift"></i> </h4>
+                                <h4>Our Projects<i className="fa fa-fire"></i> </h4>
                             </div>
                             <div className="panel-body">
                                 <p>Take a look at what we&#39;ve got in the works!</p>
@@ -48,11 +48,11 @@ class FrontContatiner extends Component{
                     <div className="col-md-4">
                         <div className="panel panel-default">
                             <div className="panel-heading">
-                                <h4><i className="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                                <h4><i className="fa fa-fw fa-compass"></i>Our Contributors</h4>
                             </div>
                             <div className="panel-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                                <a href="#" className="btn btn-default">Learn More</a>
+                                <p>People who have helped us become what we are</p>
+                                <a href="#" onClick={this.props.pageFunctions[5]} className="btn btn-default">Learn More</a>
                             </div>
                         </div>
                     </div>
